@@ -1,4 +1,4 @@
-from exercise_101.exercise_101 import *
+from exercise_101 import *
 
 def test_hello_human1():
     assert hello_human('Jefferson') == 'Hello Jefferson, you are a humman'
@@ -17,3 +17,6 @@ def test_area_triangle():
 
 def test_area_triangle2():
     assert area_triangle(10, 13) == 65
+
+def test_area_of_circle():
+    assert area_of_circle(5) == 78.54
